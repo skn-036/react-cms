@@ -1,0 +1,42 @@
+
+// normal layout
+.dropdown {
+  .dropdown-toggle {
+    &:after {
+      display: none !important;
+    }
+  }
+  .dropdown-menu {
+    padding: .25rem 0;
+    .dropdown-item {
+      font-weight: 300;
+      font-size: 13px;
+    }
+  }
+}
+
+// dark-layout 
+.dark-layout {
+  .dropdown {
+    .dropdown-toggle {
+      &:focus {
+        box-shadow: 0 0 2px rgba($color: $dark-primary-light, $alpha: 1.0), 0 0 2px rgba($color: $dark-primary-light, $alpha: 1.0);
+      }
+    }
+    .dropdown-menu {
+      background: $dark-background-deep;
+      border: 1px solid $dark-border-color;
+      .dropdown-item {
+        color: $dark-primary-light;
+        &:hover {
+          background: $dark-background-surface;
+        }
+      }
+    }
+  }
+  button.btn-outline-primary {
+    &:focus {
+      box-shadow: 0 0 2px rgba($color: $dark-primary-light, $alpha: 1.0), 0 0 2px rgba($color: $dark-primary-light, $alpha: 1.0);
+    }
+  }
+}

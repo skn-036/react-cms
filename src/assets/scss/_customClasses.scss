@@ -1,0 +1,245 @@
+/*********** Common Custom SCSS ****************/
+//color classes
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.custom-select {
+  margin-top : 0px !important;
+}
+.flex-1 {
+  flex: 1 !important;
+}
+.flex-auto {
+  flex-shrink: 1 !important;
+  flex-basis: 100% !important;
+}
+.flex-grow-none {
+  flex-grow: 0;
+}
+.flex-grow-full {
+  flex-grow: 1;
+}
+.flex-shrink-none {
+  flex-shrink: 0;
+}
+.flex-shrink-full {
+  flex-shrink: 1;
+}
+.font-weight-thin {
+  font-weight: 200;
+}
+.font-weight-super-bold {
+  font-weight: 900;
+}
+.h-inherit {
+  height: inherit;
+}
+.h-max-content {
+  height: max-content !important;
+}
+.h-100vh {
+  height: 100vh;
+}
+.h-80vh {
+  height: 80vh;
+}
+.justify-self-end {
+  justify-self: end !important;
+}
+.max-w-100 {
+  max-width: 100% !important;
+}
+.max-h-100 {
+  max-height: 100% !important;
+}
+.position-relative {
+  position: relative !important;
+}
+.position-absolute {
+  position: absolute !important;
+}
+.position-fixed {
+  position: fixed !important;
+}
+.overflow-hidden {
+  overflow: hidden !important;
+}
+.radius-5px {
+  border-radius: 2px;
+}
+.transition-3 {
+  transition: all 1s ease;
+}
+.text-black {
+  color: #000;
+}
+.text-mat {
+  color: #111;
+}
+.text-overflow-ellipsis{
+  text-overflow: ellipsis !important
+}
+.text-underline {
+  text-decoration: underline !important;
+}
+.text-6px {
+  font-size: 6px !important;
+}
+.text-8px {
+  font-size: 8px !important;
+}
+.text-10px {
+  font-size: 10px !important;
+}
+.text-11px {
+  font-size: 11px !important;
+}
+.text-12px {
+  font-size: 12px !important;
+}
+.text-13px {
+  font-size: 13px !important;
+}
+.text-15px {
+  font-size: 15px !important;
+}
+.text-16px {
+  font-size: 16px !important;
+}
+.text-17px {
+  font-size: 17px !important;
+}
+.text-18px {
+  font-size: 18px !important;
+}
+.text-19px {
+  font-size: 19px !important;
+}
+.text-20px {
+  font-size: 20px !important;
+}
+.text-21px {
+  font-size: 21px !important;
+}
+.text-22px {
+  font-size: 22px !important;
+}
+.text-24px {
+  font-size: 24px !important;
+}
+.text-full-contrast {
+  color: #000 !important;
+}
+.text-light-gray {
+  color: #ddd;
+}
+
+.w-max-content {
+  width: max-content !important;
+}
+.whitespace-no-wrap {
+  white-space: nowrap;
+}
+.whitespace-pre-line {
+  white-space: pre-line !important;
+}
+.w-inherit {
+  width: inherit !important;
+}
+.z-999 {
+  z-index: 999 !important;
+}
+
+.dark-layout {
+  .text-full-contrast {
+    color: #fff !important;
+  }
+}
+
+// xs screen
+@media screen and (max-width: 576px) {
+  .w-xs-0 {
+    width: 0% !important;
+  }
+  .w-xs-25 {
+    width: 25% !important;
+  }
+  .w-xs-50 {
+    width: 50% !important;
+  }
+  .w-xs-75 {
+    width: 75% !important;
+  }
+  .w-xs-100 {
+    width: 100% !important;
+  }
+}
+
+// sm screen
+@media screen and (min-width: 576px) {
+  .w-sm-0 {
+    width: 0% !important;
+  }
+  .w-sm-25 {
+    width: 25% !important;
+  }
+  .w-sm-50 {
+    width: 50% !important;
+  }
+  .w-sm-75 {
+    width: 75% !important;
+  }
+  .w-sm-100 {
+    width: 100% !important;
+  }
+}
+
+//md screen
+@media screen and (min-width: 768px) {
+  .w-md-0 {
+    width: 0% !important;
+  }
+  .w-md-25 {
+    width: 25% !important;
+  }
+  .w-md-50 {
+    width: 50% !important;
+  }
+  .w-md-75 {
+    width: 75% !important;
+  }
+  .w-md-100 {
+    width: 100% !important;
+  }
+}
+
+//lg screen
+@media screen and (min-width: 992px) {
+  .w-lg-0 {
+    width: 0% !important;
+  }
+  .w-lg-25 {
+    width: 25% !important;
+  }
+  .w-lg-50 {
+    width: 50% !important;
+  }
+  .w-lg-75 {
+    width: 75% !important;
+  }
+  .w-lg-100 {
+    width: 100% !important;
+  }
+}
+
+
+.image-or-name {
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50% !important;
+}
+
+

@@ -1,8 +1,10 @@
 @import 'variables';
 
 $theme-colors: (
-  // "primary": #0074d9,
-  // "danger": #ff4136
+  "primary-dark": $dark-primary-dark,
+  "primary": $dark-primary-light,
+  "secondary-dark": $dark-secondary-dark,
+  "secondary": $dark-secondary-light,
 );
 
 @import "~bootstrap/scss/bootstrap";

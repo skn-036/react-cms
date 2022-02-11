@@ -4,6 +4,7 @@
   height: 100vh;
   flex-direction: row;
   position: relative;
+
   .sidebar__overlay {
     z-index: 4;
     position: absolute;
@@ -17,6 +18,7 @@
       display: block;
     }
   }
+
   .sidebar {
     position: absolute;
     width: 300px;
@@ -33,6 +35,12 @@
         left: 100%;
       }
     }
+
+    .sidebar-header {
+      height: 50px;
+      width: 100%;
+      padding: 0 1rem;
+    }
   }
   .main__content {
     flex: 1;
@@ -48,7 +56,11 @@
     // }
     .sidebar {
       background: $dark-background-surface;
-      border-right: 1px solid $dark-border-color-primary;
+      border-right: 1px solid $dark-border-color;
+
+      // .sidebar-header {
+      //   // border-bottom: 1px solid $dark-border-color;
+      // }
     }
   }
 }

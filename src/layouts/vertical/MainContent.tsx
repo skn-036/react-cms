@@ -12,8 +12,8 @@ const MainContent: React.FC<Props> = ({ showSidebar, setShowSidebar }) => {
     <>
       <div className={`sidebar__overlay${showSidebar ? ' show' : ''}`} onClick={() => setShowSidebar(!showSidebar)}></div>
       <div className='main__content'>
-      {/* <button onClick={() => setShowSidebar(!showSidebar)}>Hello</button> */}
-      <Navbar></Navbar>
+        {/* <button onClick={() => setShowSidebar(!showSidebar)}>Hello</button> */}
+        <Navbar showSidebar={showSidebar} setShowSidebar={setShowSidebar} />
       </div>  
     </>
   );

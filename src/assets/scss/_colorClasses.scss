@@ -1,0 +1,43 @@
+
+
+.dark-layout {
+  .bg-deep {
+    background: $dark-background-deep;
+  }
+  .bg-surface {
+    background:  $dark-background-surface;
+  }
+  .text-dark {
+    color: $dark-text-dark;
+  }
+  .text-medium {
+    color: $dark-text-medium;
+  }
+  .text-disabled {
+    color: $dark-text-disabled;
+  }
+  .text-primary-light {
+    color: $dark-primary-light;
+  }
+  .text-primary-dark {
+    color: $dark-primary-dark;
+  }
+  .text-secondary-light {
+    color: $dark-secondary-light;
+  }
+  .text-secondary-dark {
+    color: $dark-secondary-dark;
+  }
+  .bg-primary-light {
+    background: $dark-primary-light;
+  }
+  .bg-primary-dark {
+    background: $dark-primary-dark;
+  }
+  .bg-secondary-light {
+    background: $dark-secondary-light;
+  }
+  .bg-secondary-dark {
+    background: $dark-secondary-dark;
+  }
+}
