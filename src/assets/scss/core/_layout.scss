@@ -45,22 +45,34 @@
   .main__content {
     flex: 1;
     height: 100%;
+    .contents {
+      width: 100%;
+      height: calc(100% - 50px);
+      padding: 1rem;
+      .page__container {
+        border-radius: 5px;
+      }
+    }
   }
 }
 
 .dark-layout {
   .vertical__layout {
     background: $dark-background-deep;
-    // .main__content {
-
-    // }
+    .main__content {
+      .contents {
+        .page__container {
+          background: $dark-background-surface;
+        }
+      }
+    }
     .sidebar {
       background: $dark-background-surface;
       border-right: 1px solid $dark-border-color;
 
-      // .sidebar-header {
-      //   // border-bottom: 1px solid $dark-border-color;
-      // }
+      .sidebar-header {
+        border-bottom: 1px solid $dark-border-color;
+      }
     }
   }
 }

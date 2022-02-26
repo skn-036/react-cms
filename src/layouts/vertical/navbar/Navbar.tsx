@@ -35,7 +35,7 @@ const Navbar: React.FC<Props> = ({ showSidebar, setShowSidebar }) => {
         <form className='w-100 h-100 position-relative d-flex align-items-center' onSubmit={searchSubmit}>
           <input 
             type="text"
-            className="form-control py-25 text-primary-light font-weight-thin"
+            className="form-control py-25 text-medium font-weight-thin"
             placeholder='search'
             ref={searchQuery}
             name='search'

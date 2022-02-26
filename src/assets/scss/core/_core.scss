@@ -12,3 +12,13 @@ h1, h2, h3, h4, h5, h6, p, a, span, div {
   margin: 0;
   padding: 0;
 }
+
+.dark-layout {
+  h1, h2, h3, h4, h5, h6 {
+    color: $dark-text-dark;
+  }
+  p, a, span, div, input {
+    color: $dark-text-medium;
+    font-size: 14px;
+  }
+}
