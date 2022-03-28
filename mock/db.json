@@ -1,0 +1,90 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Abdullah Md. Saleh",
+      "messages": [
+        {
+          "id": 1,
+          "from": 1,
+          "content": "ki obostha?",
+          "createdAt": "18/03/2022 6:32PM"
+        },
+        {
+          "id": 2,
+          "from": 0,
+          "content": "valo. tor ki obostha?",
+          "createdAt": "18/03/2022 6:36PM"
+        },
+        {
+          "id": 3,
+          "from": 1,
+          "content": "valo. Moja los",
+          "createdAt": "18/03/2022 6:36PM"
+        }
+      ],
+      "status": "Hi there! I am available for chat"
+    },
+    {
+      "id": 2,
+      "name": "Khursheda Alam Keya",
+      "messages": [
+        {
+          "id": 1,
+          "from": 2,
+          "content": "Phone dhoro na keno",
+          "createdAt": "16/03/2022 11:32AM"
+        },
+        {
+          "id": 2,
+          "from": 0,
+          "content": "Ter pai nai",
+          "createdAt": "16/03/2022 2:05PM"
+        },
+        {
+          "id": 3,
+          "from": 2,
+          "content": "Faltu kotha bolba na",
+          "createdAt": "16/03/2022 2:33PM"
+        },
+        {
+          "id": 4,
+          "from": 0,
+          "content": "eita faltu kemne hoilo",
+          "createdAt": "16/03/2022 3:36PM"
+        }
+      ],
+      "status": "Hi there! I am available for chat"
+    },
+    {
+      "id": 3,
+      "name": "Arup Kumar",
+      "messages": [],
+      "status": "Hi there! I am available for chat"
+    },
+    {
+      "id": 4,
+      "name": "Zubair Siraj",
+      "messages": [],
+      "status": "Hi there! I am available for chat"
+    },
+    {
+      "id": 5,
+      "name": "Jahid Hasan",
+      "messages": [],
+      "status": "Hi there! I am available for chat"
+    },
+    {
+      "id": 6,
+      "name": "Tasnuva Saimoom",
+      "messages": [],
+      "status": "Hi there! I am available for chat"
+    },
+    {
+      "id": 7,
+      "name": "Hello world",
+      "messages": [],
+      "status": "Hi there! I am available for chat"
+    }
+  ]
+}
